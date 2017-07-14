@@ -51,7 +51,7 @@ class Stack {
         #if os(tvOS)
             return .cachesDirectory
         #else
-            return .documentDirectory
+            return .applicationSupportDirectory
         #endif
     }
     
